@@ -7,7 +7,7 @@ from langchain_core.output_parsers import StrOutputParser
 import streamlit as st
 import time
 from PIL import Image
-img = Image.open("img\\3.jpg")
+img = Image.open("img\3.jpg")
 img = img.transpose(Image.ROTATE_270)
 img = img.resize((150,200))
 
